@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+/* Apply font and background to main content */
+.stApp {
+    background-color: #F8FAFC !important;
+}
+
+html, body, [class*="css"], .stMarkdown, p, div, span, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* Hide default Streamlit elements */
+#MainMenu {visibility: hidden;}
+header {visibility: hidden;}
+footer {visibility: hidden;}
+.stDeployButton {display:none !important;}
+[data-testid="stHeader"] {background: rgba(0,0,0,0) !important;}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #FFFFFF !important;
+    border-right: 1px solid #F1F5F9 !important;
+}
+
+[data-testid="stSidebarNav"] {
+    background-color: #FFFFFF !important;
+}
+
+/* Styled navigation link styling in sidebar */
+[data-testid="stSidebarNav"] a {
+    border-radius: 8px !important;
+    margin: 4px 8px !important;
+    padding: 8px 12px !important;
+    transition: all 0.2s ease !important;
+}
+
+[data-testid="stSidebarNav"] a:hover {
+    background-color: #F3E8FF !important;
+    color: #7C3AED !important;
+}
+
+/* Page titles */
+h1 {
+    font-weight: 700 !important;
+    color: #0F172A !important;
+    font-size: 2.25rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+h2 {
+    font-weight: 600 !important;
+    color: #1E293B !important;
+    font-size: 1.5rem !important;
+}
+
+h3 {
+    font-weight: 500 !important;
+    color: #334155 !important;
+    font-size: 1.25rem !important;
+}
+
+/* Customize tab bar styling */
+button[data-baseweb="tab"] {
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    color: #64748B !important;
+    border-bottom: 2px solid transparent !important;
+    transition: all 0.2s ease !important;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #7C3AED !important;
+    border-bottom-color: #7C3AED !important;
+}
+
+/* Customize metric fonts */
+[data-testid="stMetricValue"] {
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    color: #7C3AED !important;
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    color: #64748B !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+}
+
+/* Button override */
+button[kind="primary"] {
+    background-color: #7C3AED !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 8px 20px !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+}
+
+button[kind="primary"]:hover {
+    background-color: #6D28D9 !important;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.25) !important;
+}
+
+button[kind="secondary"] {
+    background-color: white !important;
+    color: #475569 !important;
+    border: 1px solid #E2E8F0 !important;
+    border-radius: 8px !important;
+    padding: 8px 20px !important;
+    transition: all 0.2s ease !important;
+}
+
+button[kind="secondary"]:hover {
+    border-color: #7C3AED !important;
+    color: #7C3AED !important;
+}
+
+/* --- Native st.container Card Styling --- */
+/* Target any container with key ending in kpi, chart, block, text, etc. */
+div[class*="st-key-"] {
+    background-color: #FFFFFF !important;
+    border: 1px solid #E2E8F0 !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    margin-bottom: 1.25rem !important;
+}
+
+div[class*="st-key-"]:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 15px -3px rgba(124, 58, 237, 0.1) !important;
+    border-color: #7C3AED !important;
+}
+
+/* Specific overrides for Customer Personas */
+div[class*="st-key-pers_1"] {
+    background-color: #F8F5FF !important;
+    border: 1.5px solid #7C3AED !important;
+}
+div[class*="st-key-pers_2"] {
+    background-color: #F8FAFC !important;
+    border: 1px dashed #64748B !important;
+}
+div[class*="st-key-pers_3"] {
+    background-color: #F8FAFC !important;
+    border: 1px dashed #64748B !important;
+}
+div[class*="st-key-pers_4"] {
+    background-color: #FFF1F2 !important;
+    border: 1.5px solid #F43F5E !important;
+}
+div[class*="st-key-pers_4"]:hover {
+    border-color: #E11D48 !important;
+    box-shadow: 0 10px 15px -3px rgba(244, 63, 94, 0.15) !important;
+}
+
+/* Specific override for Business Exec Summary Callout */
+div[class*="st-key-bus_exec_summary"] {
+    background-color: #F8F5FF !important;
+    border-left: 5px solid #7C3AED !important;
+    border-top: 1px solid #E2E8F0 !important;
+    border-right: 1px solid #E2E8F0 !important;
+    border-bottom: 1px solid #E2E8F0 !important;
+}
+
