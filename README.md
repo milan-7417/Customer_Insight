@@ -1,3 +1,17 @@
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+
+</p>
+
 # CustomerInsight 📊
 
 **CustomerInsight** is a production-ready, enterprise-grade business intelligence and customer analytics dashboard built on top of **Streamlit**, **Pandas**, **Plotly**, and **Scikit-learn**. The platform processes e-commerce customer transaction histories and demographic data to generate deep, multi-dimensional business insights, performance evaluations, and automated customer segmentations.
@@ -142,6 +156,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-## 👥 Developers
-Developed as a production-quality Business Intelligence solution.
-- **Lead Software Engineer:** pair-programming implementation
+## 👥 Developer
+**Milan Kumar**
+AI&ML Enthusiast
+
