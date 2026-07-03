@@ -158,5 +158,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## 👥 Developer
 **Milan Kumar**
-AI&ML Enthusiast
+
+(AI&ML Enthusiast)
 
